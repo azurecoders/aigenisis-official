@@ -18,9 +18,7 @@ const Models = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:place-items-center mt-12 md:mt-16 lg:mt-20">
           <div className="max-w-[450px] mx-auto lg:mx-0 bg-section-color border border-foreground/10 shadow-lg shadow-primary/10 cursor-pointer hover:shadow-primary/20 hover:shadow-xl transition-all duration-300 rounded-2xl lg:self-end hover:scale-[1.02]">
             <Image
-              src={
-                "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/model-1.jpg?updatedAt=1748748544058"
-              }
+              src={"/model-1.jpg"}
               alt="model-1"
               width={1920}
               height={1080}
