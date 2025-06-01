@@ -80,7 +80,9 @@ const Models = () => {
             </h3>
             <div className="bg-section-color rounded-2xl">
               <Image
-                src={"/model-1.png"}
+                src={
+                  "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/model-2.jpg?updatedAt=1748748543956"
+                }
                 alt="model-2"
                 width={1920}
                 height={1080}
@@ -139,7 +141,9 @@ const Models = () => {
           </div>
           <div className="max-w-[450px] mx-auto lg:mx-0 bg-section-color border border-foreground/10 shadow-lg shadow-primary/10 cursor-pointer hover:shadow-primary/20 hover:shadow-xl transition-all duration-300 rounded-2xl lg:self-end hover:scale-[1.02]">
             <Image
-              src={"/model-1.svg"}
+              src={
+                "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/model-3.jpg?updatedAt=1748748548189"
+              }
               alt="model-3"
               width={1920}
               height={1080}
