@@ -40,7 +40,7 @@ const About = () => {
                 <div className="absolute bottom-0 left-0 w-24 h-24 bg-primary rounded-full transform -translate-x-12 translate-y-12"></div>
               </div>
               <Image
-                src="https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/desktop.svg?updatedAt=1748748544190"
+                src="/desktop.svg"
                 alt="model"
                 width={1920}
                 height={1080}

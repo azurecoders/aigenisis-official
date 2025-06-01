@@ -56,40 +56,35 @@ const Services = () => {
                 title: "AI Chatbot",
                 description:
                   "Engage your customers with human-like conversations. Our AI chatbot works around the clock to support and convert.",
-                image:
-                  "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/blockchain-integration.jpg?updatedAt=1748748543961",
+                image: "/blockchain-integration.jpg",
                 icon: serviceIcons.blockchain,
               },
               {
                 title: "Email Automation",
                 description:
                   "Never miss an email opportunity again. Get smart, real-time responses powered by AI.",
-                image:
-                  "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/chatbot.jpg?updatedAt=1748748543909",
+                image: "/chatbot.jpg",
                 icon: serviceIcons.chatbot,
               },
               {
                 title: "Financial Advisory",
                 description:
                   "Make smarter financial decisions with AI insights. Your personal finance guide — available 24/7.",
-                image:
-                  "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/image-generation.jpg?updatedAt=1748748543936",
+                image: "/image-generation.jpg",
                 icon: serviceIcons.generation,
               },
               {
                 title: "Seamless Integration",
                 description:
                   "Connect your chatbot with your favorite tools — from CRMs to eCommerce platforms.",
-                image:
-                  "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/lead-generation.jpg?updatedAt=1748748543933",
+                image: "/lead-generation.jpg",
                 icon: serviceIcons.leads,
               },
               {
                 title: "100% Customizable",
                 description:
                   "No templates, no limits. We design AI solutions fully customized to your business, goals, and workflow.",
-                image:
-                  "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/ai-agent.jpg?updatedAt=1748748543907",
+                image: "/ai-agent.jpg",
                 icon: serviceIcons.consultation,
               },
             ].map((service, index) => {
@@ -194,9 +189,7 @@ const Services = () => {
           <div className="group bg-section-color p-6 xl:p-8 rounded-2xl max-w-[85%] border border-foreground/10 shadow-lg shadow-primary/5 hover:shadow-primary/15 hover:shadow-xl cursor-pointer transition-all duration-500 hover:border-primary/30 hover:-translate-y-2">
             <div className="relative h-[220px] xl:h-[250px] w-full overflow-hidden rounded-xl">
               <Image
-                src={
-                  "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/blockchain-integration.jpg?updatedAt=1748748543961"
-                }
+                src={"/blockchain-integration.jpg"}
                 alt="blockchain"
                 width={1920}
                 height={1080}
@@ -222,9 +215,7 @@ const Services = () => {
           <div className="group bg-section-color p-6 xl:p-8 rounded-2xl max-w-[85%] border border-foreground/10 shadow-lg shadow-primary/5 hover:shadow-primary/15 hover:shadow-xl cursor-pointer transition-all duration-500 hover:border-primary/30 hover:-translate-y-2">
             <div className="relative h-[220px] xl:h-[250px] w-full overflow-hidden rounded-xl">
               <Image
-                src={
-                  "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/chatbot.jpg?updatedAt=1748748543909"
-                }
+                src={"/chatbot.jpg"}
                 alt="chatbot"
                 width={1920}
                 height={1080}
@@ -250,9 +241,7 @@ const Services = () => {
           <div className="group bg-section-color p-6 xl:p-8 rounded-2xl max-w-[85%] border border-foreground/10 shadow-lg shadow-primary/5 hover:shadow-primary/15 hover:shadow-xl cursor-pointer transition-all duration-500 hover:border-primary/30 hover:-translate-y-2">
             <div className="relative h-[220px] xl:h-[250px] w-full overflow-hidden rounded-xl">
               <Image
-                src={
-                  "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/image-generation.jpg?updatedAt=1748748543936"
-                }
+                src={"/image-generation.jpg"}
                 alt="image generation"
                 width={1920}
                 height={1080}
@@ -278,9 +267,7 @@ const Services = () => {
           <div className="group bg-section-color p-6 xl:p-8 rounded-2xl max-w-[85%] border border-foreground/10 shadow-lg shadow-primary/5 hover:shadow-primary/15 hover:shadow-xl cursor-pointer transition-all duration-500 hover:border-primary/30 hover:-translate-y-2">
             <div className="relative h-[220px] xl:h-[250px] w-full overflow-hidden rounded-xl">
               <Image
-                src={
-                  "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/lead-generation.jpg?updatedAt=1748748543933"
-                }
+                src={"/lead-generation.jpg"}
                 alt="lead generation"
                 width={1920}
                 height={1080}
@@ -338,9 +325,7 @@ const Services = () => {
           <div className="group bg-section-color p-6 xl:p-8 rounded-2xl max-w-[85%] border border-foreground/10 shadow-lg shadow-primary/5 hover:shadow-primary/15 hover:shadow-xl cursor-pointer transition-all duration-500 hover:border-primary/30 hover:-translate-y-2">
             <div className="relative h-[220px] xl:h-[250px] w-full overflow-hidden rounded-xl">
               <Image
-                src={
-                  "https://ik.imagekit.io/mhkn4hoiyk/AI%20Genisis%20(don't%20delete)/ai-agent.jpg?updatedAt=1748748543907"
-                }
+                src={"/ai-agent.jpg"}
                 alt="ai agent"
                 width={1920}
                 height={1080}
