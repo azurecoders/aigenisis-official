@@ -85,7 +85,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
                 <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 bg-primary/10 rounded-full">
                   <Sparkles size={20} className="text-primary" />
                   <span className="text-sm font-medium text-primary">
-                    Let's Connect
+                    {"Let's Connect"}
                   </span>
                 </div>
 
@@ -97,8 +97,9 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
                 </h2>
 
                 <p className="text-foreground/70 text-lg max-w-md mx-auto">
-                  Ready to bring your vision to life? Share your ideas with us
-                  and let's create something extraordinary together.
+                  {
+                    "Ready to bring your vision to life? Share your ideas with us and let's create something extraordinary together."
+                  }
                 </p>
               </div>
 
@@ -240,8 +241,9 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
 
                 {/* Footer Note */}
                 <p className="text-center text-sm text-foreground/60 mt-6">
-                  We'll get back to you within 24 hours. Your information is
-                  secure and confidential.
+                  {
+                    "We'll get back to you within 24 hours. Your information is secure and confidential."
+                  }
                 </p>
               </form>
             </div>
