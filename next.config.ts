@@ -5,7 +5,12 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    domains: ["ik.imagekit.io", "images.unsplash.com", "plus.unsplash.com"],
+    domains: [
+      "ik.imagekit.io",
+      "images.unsplash.com",
+      "plus.unsplash.com",
+      "localhost",
+    ],
     loader: "default",
   },
   // images: {
