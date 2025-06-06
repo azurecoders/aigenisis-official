@@ -5,13 +5,13 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    domains: [
-      "ik.imagekit.io",
-      "images.unsplash.com",
-      "plus.unsplash.com",
-      "localhost",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "*",
+        port: "",
+      },
     ],
-    loader: "default",
   },
   // images: {
   //   domains: ["ik.imagekit.io", "images.unsplash.com", "plus.unsplash.com"],
